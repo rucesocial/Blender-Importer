@@ -2,8 +2,11 @@ import bpy
 import os
 import sys
 
-# Get the file path from the command line argument
-file_path = sys.argv[-1]
+# Get all arguments after the fourth argument as a list
+file_path = sys.argv[4:]
+
+# Join the arguments into a single string
+file_path = " ".join(file_path)
 
 # Remove any quotation marks in the file path
 file_path = file_path.replace('"', '')
