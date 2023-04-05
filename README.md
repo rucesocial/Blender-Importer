@@ -18,9 +18,12 @@ Replace `C:\Program Files\Blender Foundation\Blender\blender.exe` with the path 
 
 Then, right-click on an .fbx file and select "Open with" -> "Choose another app". Select "More apps" -> "Look for another app on this PC" and select `blender_import.bat`. Check the "Always use this app to open .fbx files" box and click "OK". Now, double-clicking on an .fbx file will automatically open it in Blender using the Blender Importer script.
 
+# Tutorial Video
+[![Tutorial Video](https://github.com/rucesocial/Blender-Importer/blob/main/TutorialVideoImage.jpg?raw=true)](https://youtu.be/EGsvV5wl3Gw)
+
 ## Supported File Types
 
-Blender Importer supports the following file types:
+Blender Importer supports the following file types: 
 
 - .fbx: Supported in Blender 2.6 and later versions
 - .obj: Supported in almost all Blender versions
@@ -31,5 +34,12 @@ Blender Importer supports the following file types:
 - .stl: Supported in almost all Blender versions
 - .x3d: Supported in almost all Blender versions
 - .usd: Supported in Blender 2.93 and later versions
+
+## Contains helper code for [Asset Creation Toolset](https://github.com/mrven/Blender-Asset-Creation-Toolset)
+
+This repository contains code for an add-on to the Asset Creation Toolset 🛠️ Blender extension. Normally, if you open a model for the first time, the export path is empty, but with my add-on, if you are using the Asset Creation Toolset, the export path is set to the directory where the model is located, allowing for quick exports.
+You can watch the tutorial video.
+
+[![Tutorial Video](https://github.com/rucesocial/Blender-Importer/blob/main/addon.png)](https://youtu.be/EGsvV5wl3Gw)
 
 
